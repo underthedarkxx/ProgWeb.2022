@@ -1,0 +1,66 @@
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+body {
+    font-family: "lucinda Sans unicode", verdana, sans-serif;
+    line-height: 1.6;
+    background: #CC7766 url(IMG/noise.png);
+}
+.lugar{
+    border-color: #CCC #999 #999 #CCC;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.lugar h2{
+    border-bottom: 1px dashed #5c6818;
+    margin: 0;
+}
+.luagr a {
+    color: #2C11AF;
+    font-weight: bold;
+}
+a{
+    color: #2C88A7;
+    text-decoration: none;
+}
+a:hover { 
+    color: white;
+    background-color: black;
+}
+.lugar img{
+    height: 200px;/* e o width?*/;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+.clear{
+    clear:both;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+.canto{
+    float: right
+}
+.esquerdo{
+    float: left;
+    width: 660px;
+}
+.notas{
+    float: right;
+    width:260px;/*pois existe pathings no meio*/
+}
+.ibge{
+    width: 28%;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    width: 660px;
+}
+
